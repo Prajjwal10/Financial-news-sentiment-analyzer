@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Data outputs (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
